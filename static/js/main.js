@@ -21,7 +21,7 @@ const config = {
         },
         {
             title: 'Jello Train Physics Simulation',
-            description: 'A train carries a 125-particle spring-mass jello cube across procedurally generated Perlin terrain. Verlet integration with sub-stepping keeps physics stable under interactive forces. Web build via Emscripten.',
+            description: 'Physics-based openFrameworks simulation of a train carrying a 125-particle spring-mass jello cube across procedurally generated Perlin terrain. Compiled to the web with Emscripten.',
             tags: ['C++', 'openFrameworks', 'Emscripten'],
             live: 'projects/jello-train-simulation/',
             code: 'https://github.com/erichobson/jello-train-simulation'
