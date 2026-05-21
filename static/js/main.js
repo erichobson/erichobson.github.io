@@ -14,14 +14,14 @@ const config = {
     projects: [
         {
             title: 'Deep Frying Simulation',
-            description: 'Physics-based openFrameworks simulation of frying potatoes. Models heat transfer, moisture loss, Maillard browning, and buoyancy against temperature-dependent oil viscosity. Compiled to the web with Emscripten.',
+            description: 'Physics-based openFrameworks simulation of frying potatoes. Implements Newton\'s Law of Cooling, Archimedes\' buoyancy with viscous drag, Arrhenius oil viscosity, Maillard reaction kinetics, and a bubble particle system. Compiled to the web with Emscripten.',
             tags: ['C++', 'openFrameworks', 'Emscripten'],
             live: 'projects/deep-frying-simulation/',
             code: 'https://github.com/erichobson/deep-frying-simulation'
         },
         {
             title: 'Jello Train Physics Simulation',
-            description: 'Physics-based openFrameworks simulation of a train carrying a 125-particle spring-mass jello cube across procedurally generated Perlin terrain. Compiled to the web with Emscripten.',
+            description: 'Physics-based openFrameworks simulation of a train carrying a 125-particle (5×5×5) spring-mass jello cube across procedurally generated Perlin noise terrain. Uses Verlet integration with 12 sub-steps per frame for stable soft-body dynamics. Compiled to the web with Emscripten.',
             tags: ['C++', 'openFrameworks', 'Emscripten'],
             live: 'projects/jello-train-simulation/',
             code: 'https://github.com/erichobson/jello-train-simulation'
